@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="หน้าหลัก" />
+        <item
+            android:id="@+id/introduction"
+            android:icon="@drawable/ic_medical"
+            android:title="แนะนำโรงบาล" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_city"
+            android:title="แนะนำเครือข่าย" />
+        <item
+            android:id="@+id/doctor"
+            android:icon="@drawable/ic_doctor"
+            android:title="แนะนำหมอ" />
+        <item
+            android:id="@+id/rdu"
+            android:icon="@drawable/ic_vitamins"
+            android:title="RDU รู้จักยา" />
+        <item
+            android:id="@+id/med"
+            android:icon="@drawable/ic_germs"
+            android:title="MED รู้จักโรค" />
+        <item
+            android:id="@+id/shot"
+            android:icon="@drawable/ic_002_medical"
+            android:title="ลงนัด" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_people"
+            android:title="ติดต่อเรา" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

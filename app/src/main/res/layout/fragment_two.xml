@@ -1,0 +1,217 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context="com.example.nu.myapplication.introduce.TwoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="#e6ffffff">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="110dp">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="          คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร ก่อตั้งเมื่อวันที่ 18 มกราคม พ.ศ. 2537 เป็นคณะที่จัดตั้งขึ้นเป็นลำดับที่ 5 ของมหาวิทยาลัยนเรศวร และเป็นคณะแพทยศาสตร์ ที่จัดตั้งขึ้นเป็นลำดับที่ 12 ของประเทศไทย โดยในช่วง 10 ปีแรกได้ร่วมมือกับทาง โรงพยาบาล สังกัดกระทรวงสาธารณสุขในการร่วมผลิตแพทย์ตามนโยบายการแก้ไขปัญหา การขาดแคลนแพทย์ ในส่วนภูมิภาค และหลังจากนั้น คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร จึงเริ่มพัฒนา โรงพยาบาลมหาวิทยาลัยนเรศวร เพื่อเป็นโรงพยาบาล หลักในการทำการเรียนการสอนของนิสิตแพทย์ โดยมีความร่วมมือระหว่างเครือข่าย ศูนย์แพทยศาสตรศึกษาชั้นคลินิก ทั้ง 5 แห่งในการพัฒนาทางด้านวิชาการและบริการ ร่วมกัน"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          การจัดตั้งคณะแพทยศาสตร์ มหาวิทยาลัยนเรศวรเริ่มขึ้นตั้งแต่ปี พ.ศ. 2525 ในสมัยที่มหาวิทยาลัยนเรศวรยังคงเป็นมหาวิทยาลัยศรีนครินทรวิโรฒ วิทยาเขตพิษณุโลก โดยภายหลังจากกระทรวงมหาดไทยอนุญาตให้มหาวิทยาลัยศรีนครินทรวิโรฒ วิทยาเขต พิษณุโลกใช้ประโยชน์ในที่ดินทุ่งหนองอ้อ-ปากคลองจิก ซึ่งเป็นที่ตั้งของมหาวิทยาลัย ในปัจจุบัน เพื่อขยายโครงการของมหาวิทยาลัยแล้ว ทางวิทยาเขตได้จัดทำ แผนพัฒนาวิทยาเขตพิษณุโลก ขึ้น โดยมีโครงการจัดตั้งคณะขึ้นมาใหม่ 3 คณะ คือ คณะเกษตรศาสตร์ คณะวิศวกรรมศาสตร์และเทคโนโลยี รวมทั้งคณะแพทยศาสตร์ และพยาบาลศาสตร์ด้วย"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          ภายหลังจากมหาวิทยาลัยศรีนครินทรวิโรฒ วิทยาเขตพิษณุโลกยกฐานะขึ้นเป็น มหาวิทยาลัยนเรศวร เมื่อวันที่ 29 กรกฎาคม พ.ศ. 2533 แล้ว การจัดตั้ง คณะแพทยศาสตร์ได้ดำเนินการอีกครั้งในปี พ.ศ. 2536 ซึ่งรัฐบาลในขณะนั้นมีนโยบาย แก้ไขปัญหาการขาดแคลนแพทย์ ในส่วนภูมิภาค โดยจัดให้มีการผลิตแพทย์เพิ่ม และกระจายแพทย์ลงสู่ส่วนภูมิภาคให้มากขึ้น รัฐบาลจึงศึกษาความเป็นไปได้ ถึงความ เหมาะสมของการจัดตั้งคณะแพทยศาสตร์ขึ้นใหม่ในมหาวิทยาลัยภูมิภาค"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          จากแนวทางดังกล่าว มหาวิทยาลัยนเรศวรได้เสนอความเห็นเกี่ยวกับการจัดตั้ง คณะแพทยศาสตร์ต่อทบวงมหาวิทยาลัย เมื่อวันที่ 18 กุมภาพันธ์ พ.ศ. 2536 โดยมี แนวทางที่จะใช้ทรัพยากรของมหาวิทยาลัย ร่วมกับโรงพยาบาลในสังกัดกระทรวง สาธารณสุขในจังหวัดพิษณุโลกและจังหวัดภาคเหนือตอนล่างให้เกิดประโยชน์สูงสุด จึงได้ลงนามความร่วมมือการผลิตแพทย์ระหว่างกระทรวงสาธารณสุขและ มหาวิทยาลัยนเรศวรในปี พ.ศ. 2537 หลังจากที่คณะรัฐมนตรีในขณะนั้นมีมติเห็นชอบ ให้กระทรวงสาธารณสุข ร่วมมือกับทบวงมหาวิทยาลัย จัดทำโครงการร่วมผลิตแพทย์ เพิ่มเพื่อชาวชนบท (The Collaborative Project to Increase Production of Rural Doctor-CPIRD)"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          คณะรัฐมนตรีจึงมีมติให้จัดตั้งคณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร เมื่อวันที่ 18 มกราคม พ.ศ. 2537 และในคราวเดียวกันนั้น คณะรัฐมนตรีได้อนุมัติโครงการก่อสร้าง อาคารศูนย์วิจัยทางวิทยาศาสตร์สุขภาพ โดยมุ่งหวังให้เป็นสถานที่ สำหรับการเรียน การสอนนิสิตในกลุ่มวิทยาศาสตร์สุขภาพ ทั้งหมดของมหาวิทยาลัย และเพื่อเป็น โรงพยาบาลหลักของคณะสำหรับการเรียนการสอนของนิสิตแพทย์ต่อไปในอนาคต ซึ่งการก่อสร้างอาคารศูนย์วิจัยทางวิทยาศาสตร์สุขภาพแล้วเสร็จและเริ่มเปิดให้บริการแก่ ประชาชนทั่วไปตั้งแต่ปี พ.ศ. 2545 ในช่วงแรกได้ใช้ชื่อว่า สถาบันวิจัยทางวิทยาศาสตร์ สุขภาพ มหาวิทยาลัยนเรศวร โดยเป็นหน่วยงานที่ขึ้นตรงต่อมหาวิทยาลัยนเรศวร เพื่อความคล่องตัว ในการบริหารงาน และต่อมาได้เข้ารวมเข้าเป็นส่วนหนึ่งของ คณะแพทยศาสตร์ในปี พ.ศ. 2548 พร้อมทั้งใช้ชื่อเป็น โรงพยาบาลมหาวิทยาลัยนเรศวร"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวรเริ่มรับนิสิตแพทย์รุ่นแรกตั้งแต่ปีการศึกษา 2538 โดยในช่วงแรกทำการเรียนการสอนชั้นปรีคลินิก (ชั้นปีที่ 1 - 3) ที่คณะแพทยศาสตร์ และคณะอื่นๆ ในมหาวิทยาลัยนเรศวร จากนั้นจึงไปศึกษาต่อระดับชั้นคลินิก (ชั้นปีที่ 4 - 6) ที่โรงพยาบาลพุทธชินราช พิษณุโลก ซึ่งหลักสูตรแพทยศาสตรบัณฑิต ของมหาวิทยาลัยนเรศวรได้รับการรับรองจากแพทยสภาเมื่อปี พ.ศ. 2539 จากนั้นในปี พ.ศ. 2542 คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวรได้ขยายการเรียนการสอนชั้นคลินิก เพิ่มโดยร่วมมือกับทางโรงพยาบาลอุตรดิตถ์ ซึ่งนิสิตแพทย์ทั้งหมดจะอยู่ในโครงการ ร่วมผลิตแพทย์เพิ่มเพื่อชาวชนบท โดยรับนิสิตจากโควตาในพื้นที่ภาคเหนือตอนล่าง"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          ปีการศึกษา 2546 คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร เปิดรับนิสิตแพทย์ แนวใหม่ (New Tract) โดยรับจากบุคลากรสังกัดกระทรวงสาธารณสุข เพื่อให้โอกาส ผู้สำเร็จการศึกษาในระดับปริญญาตรี สาขาวิชาวิทยาศาสตร์หรือสาขาวิทยาศาสตร์ สุขภาพที่มีประสบการณ์ในการทำงานเกี่ยวกับการสาธารณสุข เข้าศึกษาต่อในหลักสูตร แพทยศาสตรบัณฑิต ซึ่งเป็นหลักสูตรที่มีระยะเวลาเวลาศึกษา 5 ปี (เทียบโอนหน่วยกิต ในชั้นปีที่ 1) และศึกษาตามหลักสูตรแพทยศาสตรบัณฑิต เหมือนกับนิสิตแพทย์ ปกติทุกประการ ซึ่งจะอยู่ในโครงการร่วมผลิตแพทย์เพิ่มเพื่อชาวชนบท เช่นเดียวกัน โดยจะทำการเรียนการสอนชั้นคลินิกที่โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช โรงพยาบาลแพร่ และ โรงพยาบาลพิจิตร"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_7"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวรมีวิสัยทัศน์ที่จะผลิตบัณฑิตแพทย์คุณภาพ บริการทางการแพทย์มาตรฐานสากล และพันธกิจในการบริหารการศึกษาเพื่อผลิต บัณฑิตแพทย์และบุคลากรทางการแพทย์ที่มีคุณภาพ มีคุณธรรมและจริยธรรม สร้างเสริม งานวิจัยทั้งระดับพื้นฐานและประยุกต์ ให้บริการทางการแพทย์ระดับมาตรฐานสากล ด้วยหัวใจความเป็นมนุษย์ เน้นการทำงานร่วมกับภาคีเครือข่ายทุกภาคส่วนและเข้าถึง ประชาชน"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_8"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="          	ปัจจุบันคณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร แบ่งหน่วยงานออกเป็น 15 ภาควิชา สำนักงานเลขานุการ และโรงพยาบาลมหาวิทยาลัยนเรศวร"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_9"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชากุมารเวชศาสตร์			ภาควิชาจักษุวิทยา"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_10"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาจิตเวชศาสตร์			  ภาควิชานิติเวชศาสตร์"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_11"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาพยาธิวิทยา			      ภาควิชารังสีวิทยา"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_12"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาวิสัญญีวิทยา			    ภาควิชาเวชศาสตร์ครอบครัว"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_13"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาเวชศาสตร์ชุมชน		ภาควิชาเวชศาสตร์ฟื้นฟู"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_14"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาศัลยศาสตร์			      ภาควิชาโสต ศอ นาสิกวิทยา"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_15"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาสูติศาสตร์-นรีเวชวิทยา			ภาควิชาออร์โธปิดิกส์"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tx_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tx_16"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="     ภาควิชาอายุรศาสตร์"
+                    android:textColor="#000" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</FrameLayout>
